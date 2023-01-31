@@ -1,0 +1,25 @@
+:root {
+  --primario: #9C27B0;
+  --primarioOscuro: #89119D;
+  --secundario: #FFCE00;
+  --secundarioOscuro: rgb(233, 287, 2);
+  --blanco: #FFF;
+  --negro: #000;
+
+  --fuentePrincipal: 'Staatliches', cursive;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--primario);
+  font-size: 1.6rem;
+  
+}
