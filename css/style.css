@@ -189,11 +189,27 @@ h3 {
   }
 }
 
-
-.nosotros__contenido {
-
-}
-
 .nosotros__imagen {
   grid-row: 1 / 2;
+}
+
+/** Bloques **/
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .bloques {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bloque{
+  text-align: center;
+}
+
+.bloque__titulo {
+  margin: 0;
 }
